@@ -1,0 +1,27 @@
+#Start
+ ISTART = 0   , dos = 1
+ ICHARG =2    , dos = 11
+ #Electronic
+ ENCUT = 300
+ PREC =Accurate
+ ISMEAR=0
+ SIGMA =0.1
+ NELM=60
+ EDIFF=1E-6
+            dos, NEDOS = 3001
+ #Spin related
+ #ISPIN = 2
+ #MAGMOM=2*1.01*0.52*0.75
+ #Ionic
+ 
+ EDIFFG=-0.01
+ NSW=200 , for dos = 0
+ IBRION=2
+ ISIF=3 , dos = 2
+ LREAL=.FALSE.
+ ADDGRID=.TRUE.
+ #LWAVE=.FALSE.
+ #LCHARG=.FALSE.
+                   dos, LORBIT = 11
+ 
+ NPAR = 4
